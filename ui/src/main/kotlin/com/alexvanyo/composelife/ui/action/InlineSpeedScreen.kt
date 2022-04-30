@@ -29,11 +29,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alexvanyo.composelife.ui.R
 import com.alexvanyo.composelife.ui.component.LabeledSlider
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.ThemePreviews
 import kotlin.math.log2
 import kotlin.math.pow
 import kotlin.math.roundToInt
@@ -127,7 +127,7 @@ fun GenerationsPerStepControl(
     )
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun InlineSpeedScreenPreview() {
     ComposeLifeTheme {

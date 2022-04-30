@@ -36,10 +36,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alexvanyo.composelife.ui.R
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.ThemePreviews
 
 @Suppress("LongParameterList", "LongMethod")
 @Composable
@@ -119,7 +119,7 @@ fun ActionControlRow(
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun CollapsedRunningActionControlRowPreview() {
     ComposeLifeTheme {
@@ -134,7 +134,7 @@ fun CollapsedRunningActionControlRowPreview() {
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun CollapsedPausedActionControlRowPreview() {
     ComposeLifeTheme {
@@ -149,7 +149,7 @@ fun CollapsedPausedActionControlRowPreview() {
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun ExpandedActionControlRowPreview() {
     ComposeLifeTheme {
@@ -164,7 +164,7 @@ fun ExpandedActionControlRowPreview() {
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun ElevatedExpandedActionControlRowPreview() {
     ComposeLifeTheme {

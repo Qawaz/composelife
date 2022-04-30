@@ -27,9 +27,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import com.alexvanyo.composelife.ui.R
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.ThemePreviews
 
 @Composable
 fun InlineSettingsScreen(
@@ -50,7 +50,7 @@ fun InlineSettingsScreen(
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun InlineSettingsScreenPreview() {
     ComposeLifeTheme {

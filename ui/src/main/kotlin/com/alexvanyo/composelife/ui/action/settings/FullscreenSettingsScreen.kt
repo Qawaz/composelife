@@ -80,12 +80,12 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import com.alexvanyo.composelife.ui.R
 import com.alexvanyo.composelife.ui.action.ActionCardNavigation
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.SizePreviews
 import com.alexvanyo.composelife.ui.util.canScrollUp
 
 @Suppress("LongMethod")
@@ -442,7 +442,7 @@ private val SettingsCategory.outlinedIcon: ImageVector
     }
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
-@SizePreviews
+@Preview // @SizePreviews
 @Composable
 fun FullscreenSettingsScreenListPreview() {
     ComposeLifeTheme {
@@ -464,7 +464,7 @@ fun FullscreenSettingsScreenListPreview() {
 }
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
-@SizePreviews
+@Preview // @SizePreviews
 @Composable
 fun FullscreenSettingsScreenDetailsPreview() {
     ComposeLifeTheme {

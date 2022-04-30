@@ -21,6 +21,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.DpSize
 import com.alexvanyo.composelife.algorithm.GameOfLifeAlgorithm
 import com.alexvanyo.composelife.dispatchers.ComposeLifeDispatchers
@@ -28,7 +29,6 @@ import com.alexvanyo.composelife.model.rememberTemporalGameOfLifeState
 import com.alexvanyo.composelife.model.rememberTemporalGameOfLifeStateMutator
 import com.alexvanyo.composelife.model.toCellState
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.SizePreviews
 import com.alexvanyo.composelife.ui.entrypoints.algorithm.inject as injectAlgorithm
 import com.alexvanyo.composelife.ui.entrypoints.dispatchers.inject as injectDispatchers
 
@@ -68,7 +68,7 @@ private val gosperGliderGun = """
 """.toCellState()
 
 @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
-@SizePreviews
+@Preview // @SizePreviews
 @Composable
 fun InteractiveCellUniversePreview() {
     ComposeLifeTheme {

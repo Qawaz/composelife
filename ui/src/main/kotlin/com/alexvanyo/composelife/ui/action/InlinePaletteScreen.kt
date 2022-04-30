@@ -47,6 +47,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.alexvanyo.composelife.preferences.ComposeLifePreferences
 import com.alexvanyo.composelife.preferences.CurrentShape
@@ -56,7 +57,6 @@ import com.alexvanyo.composelife.ui.R
 import com.alexvanyo.composelife.ui.component.LabeledSlider
 import com.alexvanyo.composelife.ui.entrypoints.preferences.inject
 import com.alexvanyo.composelife.ui.theme.ComposeLifeTheme
-import com.alexvanyo.composelife.ui.util.ThemePreviews
 import kotlinx.coroutines.launch
 
 @Composable
@@ -187,7 +187,7 @@ fun InlinePaletteScreen(
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun LoadingInlinePaletteScreenPreview() {
     ComposeLifeTheme {
@@ -201,7 +201,7 @@ fun LoadingInlinePaletteScreenPreview() {
     }
 }
 
-@ThemePreviews
+@Preview // @ThemePreviews
 @Composable
 fun RoundRectangleInlinePaletteScreenPreview() {
     ComposeLifeTheme {

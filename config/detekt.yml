@@ -6,6 +6,12 @@ comments:
 complexity:
   LongMethod:
     excludes: [ '**/test/**', '**/androidTest/**', '**/sharedTest/**', '**/commonTest/**', '**/jvmTest/**', '**/jsTest/**', '**/iosTest/**' ]
+  TooManyFunctions:
+    excludes: [ '**/generated/**', '**/test/**', '**/androidTest/**', '**/sharedTest/**', '**/commonTest/**', '**/jvmTest/**', '**/jsTest/**', '**/iosTest/**' ]
+
+empty-blocks:
+  EmptyFunctionBlock:
+    excludes: [ '**/generated/**' ]
 
 formatting:
   FunKeywordSpacing:
@@ -19,6 +25,10 @@ formatting:
   NoEmptyFirstLineInMethodBlock:
     active: true
   NoLineBreakBeforeAssignment:
+    excludes: [ '**/generated/**' ]
+  NoUnitReturn:
+    excludes: [ '**/generated/**' ]
+  NoUnusedImports:
     excludes: [ '**/generated/**' ]
   SpacingAroundAngleBrackets:
     active: true

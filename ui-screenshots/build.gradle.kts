@@ -18,6 +18,7 @@ plugins {
     id("com.alexvanyo.composelife.android.library")
     id("com.alexvanyo.composelife.android.library.compose")
     id("com.alexvanyo.composelife.android.library.jacoco")
+    id("com.alexvanyo.composelife.android.library.ksp")
     id("com.alexvanyo.composelife.android.library.paparazzi")
     id("com.alexvanyo.composelife.detekt")
 }
@@ -34,5 +35,7 @@ dependencies {
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.compose.ui)
 
+    testImplementation(libs.showkase.runtime)
+    ksp(libs.showkase.processor)
     testImplementation(libs.testParameterInjector)
 }

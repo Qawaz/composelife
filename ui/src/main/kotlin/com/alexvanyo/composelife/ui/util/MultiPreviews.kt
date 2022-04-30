@@ -16,47 +16,44 @@
 
 package com.alexvanyo.composelife.ui.util
 
-import android.content.res.Configuration
-import androidx.compose.ui.tooling.preview.Preview
-
-@Preview(
-    name = "Light mode phone",
-    uiMode = Configuration.UI_MODE_NIGHT_NO,
-    device = "spec:shape=Normal,width=360,height=640,unit=dp,dpi=480",
-)
-@Preview(
-    name = "Dark mode phone",
-    uiMode = Configuration.UI_MODE_NIGHT_YES,
-    device = "spec:shape=Normal,width=360,height=640,unit=dp,dpi=480",
-)
-@Preview(
-    name = "Light mode foldable",
-    uiMode = Configuration.UI_MODE_NIGHT_NO,
-    device = "spec:shape=Normal,width=673,height=841,unit=dp,dpi=480",
-)
-@Preview(
-    name = "Dark mode foldable",
-    uiMode = Configuration.UI_MODE_NIGHT_YES,
-    device = "spec:shape=Normal,width=673,height=841,unit=dp,dpi=480",
-)
-@Preview(
-    name = "Light mode tablet",
-    uiMode = Configuration.UI_MODE_NIGHT_NO,
-    device = "spec:shape=Normal,width=1280,height=800,unit=dp,dpi=480",
-)
-@Preview(
-    name = "Dark mode tablet",
-    uiMode = Configuration.UI_MODE_NIGHT_YES,
-    device = "spec:shape=Normal,width=1280,height=800,unit=dp,dpi=480",
-)
-annotation class SizePreviews
-
-@Preview(
-    name = "Light mode",
-    uiMode = Configuration.UI_MODE_NIGHT_NO,
-)
-@Preview(
-    name = "Dark mode",
-    uiMode = Configuration.UI_MODE_NIGHT_YES,
-)
-annotation class ThemePreviews
+// @Preview(
+//    name = "Light mode phone",
+//    uiMode = Configuration.UI_MODE_NIGHT_NO,
+//    device = "spec:shape=Normal,width=360,height=640,unit=dp,dpi=480",
+// )
+// @Preview(
+//    name = "Dark mode phone",
+//    uiMode = Configuration.UI_MODE_NIGHT_YES,
+//    device = "spec:shape=Normal,width=360,height=640,unit=dp,dpi=480",
+// )
+// @Preview(
+//    name = "Light mode foldable",
+//    uiMode = Configuration.UI_MODE_NIGHT_NO,
+//    device = "spec:shape=Normal,width=673,height=841,unit=dp,dpi=480",
+// )
+// @Preview(
+//    name = "Dark mode foldable",
+//    uiMode = Configuration.UI_MODE_NIGHT_YES,
+//    device = "spec:shape=Normal,width=673,height=841,unit=dp,dpi=480",
+// )
+// @Preview(
+//    name = "Light mode tablet",
+//    uiMode = Configuration.UI_MODE_NIGHT_NO,
+//    device = "spec:shape=Normal,width=1280,height=800,unit=dp,dpi=480",
+// )
+// @Preview(
+//    name = "Dark mode tablet",
+//    uiMode = Configuration.UI_MODE_NIGHT_YES,
+//    device = "spec:shape=Normal,width=1280,height=800,unit=dp,dpi=480",
+// )
+// annotation class SizePreviews
+//
+// @Preview(
+//    name = "Light mode",
+//    uiMode = Configuration.UI_MODE_NIGHT_NO,
+// )
+// @Preview(
+//    name = "Dark mode",
+//    uiMode = Configuration.UI_MODE_NIGHT_YES,
+// )
+// annotation class ThemePreviews

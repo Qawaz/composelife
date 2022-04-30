@@ -16,15 +16,8 @@
 
 package com.alexvanyo.composelife.ui
 
-import com.alexvanyo.composelife.ui.util.BasePaparazziTest
-import org.junit.Test
+import com.airbnb.android.showkase.annotation.ShowkaseRoot
+import com.airbnb.android.showkase.annotation.ShowkaseRootModule
 
-class InteractiveCellUniverseSnapshotTests : BasePaparazziTest() {
-
-    @Test
-    fun interactive_cell_universe_preview() {
-        snapshot {
-            InteractiveCellUniversePreview()
-        }
-    }
-}
+@ShowkaseRoot
+class ShowkaseScreenshotModule : ShowkaseRootModule
