@@ -23,7 +23,7 @@ import androidx.compose.foundation.background
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.lifecycleScope
-import androidx.wear.compose.material.MaterialTheme
+import androidx.wear.compose.material3.MaterialTheme
 import androidx.wear.watchface.editor.EditorSession
 import com.alexvanyo.composelife.ui.wear.WatchFaceConfigScreen
 import com.alexvanyo.composelife.ui.wear.rememberWatchFaceConfigState
@@ -49,7 +49,7 @@ class WatchFaceConfigActivity : AppCompatActivity() {
             ComposeLifeTheme {
                 WatchFaceConfigScreen(
                     state = watchFaceConfigState,
-                    modifier = Modifier.background(MaterialTheme.colors.background),
+                    modifier = Modifier.background(MaterialTheme.colorScheme.background),
                 )
             }
         }

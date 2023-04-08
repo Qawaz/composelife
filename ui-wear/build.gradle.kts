@@ -56,7 +56,7 @@ kotlin {
                 implementation(libs.androidx.compose.uiToolingPreview)
                 implementation(libs.androidx.core)
                 implementation(libs.androidx.wear.compose.foundation)
-                implementation(libs.androidx.wear.compose.material)
+                implementation(libs.androidx.wear.compose.material3)
                 implementation(libs.androidx.wear.watchface)
                 implementation(libs.androidx.wear.watchface.complications.data)
                 implementation(libs.androidx.wear.watchface.complications.dataSource)

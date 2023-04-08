@@ -57,7 +57,7 @@ kotlin {
                 implementation(libs.androidx.compose.runtime)
                 implementation(libs.androidx.compose.ui)
                 implementation(libs.androidx.lifecycle.runtime)
-                implementation(libs.androidx.wear.compose.material)
+                implementation(libs.androidx.wear.compose.material3)
                 api(libs.androidx.wear.watchface)
                 implementation(libs.androidx.wear.watchface.complications.data)
                 implementation(libs.androidx.wear.watchface.complications.dataSource)
